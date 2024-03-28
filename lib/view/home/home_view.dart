@@ -76,8 +76,9 @@ class _HomeViewState extends State<HomeView> {
                             .userList.value.data![index].avatar
                             .toString()),
                       ),
-                      title: Text(
-                          "${homeController.userList.value.data![index].firstName} ${homeController.userList.value.data![index].lastName}"),
+                      title: Text(homeController
+                          .userList.value.data![index].firstName
+                          .toString()),
                       subtitle: Text(homeController
                           .userList.value.data![index].email
                           .toString()),
